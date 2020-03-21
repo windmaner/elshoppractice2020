@@ -44,7 +44,6 @@ export default {
   },
   methods: {
     changePage(page) {
-      console.log(this.data)
       this.$emit("changePage", page);
     }
   }
