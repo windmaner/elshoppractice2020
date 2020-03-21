@@ -30,7 +30,7 @@
         </tr>
       </tbody>
     </table>
-    <pagination :pages="pagination" @changePage='getProducts'></pagination>
+    <pagination :pages="pagination" @turnPage='getProducts'></pagination>
     <!-- Modal -->
     <div
       class="modal fade"
